@@ -16,7 +16,7 @@ $factory = new MediawikiFactory($api);
 $cat = $factory->newCategoryTraverser();
 $categoryNamespaceId = 14;
 $fspsCat = new Title('Category:Fremantle_Society_Photographic_Survey', $categoryNamespaceId);
-$titlefile = 'pagenames.txt';
+$titlefile = __DIR__.'/pagenames.txt';
 if (file_exists($titlefile)) {
     unlink($titlefile);
 }
