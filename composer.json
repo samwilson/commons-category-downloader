@@ -1,5 +1,8 @@
 {
+    "name": "samwilson/commons-category-downloader",
+    "description": "A simple command line PHP script for downloading all files and page titles in a Wikimedia Commons category.",
+    "license": "GPL-3.0+",
     "require": {
-        "addwiki/mediawiki-api": "^0.7.1"
+        "addwiki/mediawiki-api": "^0.7"
     }
 }
